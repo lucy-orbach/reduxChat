@@ -26,7 +26,9 @@
   },
   "homepage": "http://rackt.github.io/redux",
   "dependencies": {
+    "firebase": "^2.3.1",
     "isomorphic-fetch": "^2.1.1",
+    "re-base": "^1.2.0",
     "react": "^0.13.3",
     "react-redux": "^2.1.2",
     "redux": "^3.0.0",

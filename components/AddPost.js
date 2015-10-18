@@ -7,8 +7,8 @@ export default class AddPost extends Component {
   }
   handleClick() {
   	let node = findDOMNode(this.refs.postInput);
-  	let postText = node.value.trim();
-  	this.props.onAddClick(postText);
+  	let newPost = node.value.trim();
+  	this.props.onAddClick(newPost);
   	node.value = '';
   }
   render() {

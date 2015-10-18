@@ -1,4 +1,5 @@
 import React, { PropTypes, Component } from 'react';
+import Rebase from 're-base';
 
 export default class Posts extends Component {
   constructor(props) {
